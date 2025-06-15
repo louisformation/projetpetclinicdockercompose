@@ -3,7 +3,8 @@ version: '3'
 services:
   config-server:
     build:
-      context: ./spring-petclinic-config-server
+      context: /home/louis/projetpetclinicdockercompose/spring-petclinic-config-server
+    #  context: ./spring-petclinic-config-server
       dockerfile: Dockerfile
     container_name: config-server
     deploy:
@@ -15,7 +16,8 @@ services:
 
   discovery-server:
     build:
-      context: ./spring-petclinic-discovery-server
+      context: /home/louis/projetpetclinicdockercompose/spring-petclinic-discovery-server
+    #  context: ./spring-petclinic-discovery-server
       dockerfile: Dockerfile
     container_name: discovery-server
     deploy:
@@ -29,7 +31,8 @@ services:
 
   customers-service:
     build:
-      context: ./spring-petclinic-customers-service
+      context: /home/louis/projetpetclinicdockercompose/spring-petclinic-customers-service 
+    #  context: ./spring-petclinic-customers-service
       dockerfile: Dockerfile
     container_name: customers-service
     deploy:
@@ -44,7 +47,8 @@ services:
 
   visits-service:
     build:
-      context: ./spring-petclinic-visits-service
+      context: /home/louis/projetpetclinicdockercompose/spring-petclinic-visits-service 
+    #  context: ./spring-petclinic-visits-service
       dockerfile: Dockerfile
     container_name: visits-service
     deploy:
@@ -59,7 +63,8 @@ services:
 
   vets-service:
     build:
-      context: ./spring-petclinic-vets-service
+      context: /home/louis/projetpetclinicdockercompose/spring-petclinic-vets-service 
+    #  context: ./spring-petclinic-vets-service
       dockerfile: Dockerfile
     container_name: vets-service
     deploy:
@@ -74,7 +79,8 @@ services:
 
   api-gateway:
     build:
-      context: ./spring-petclinic-api-gateway
+      context: /home/louis/projetpetclinicdockercompose/spring-petclinic-api-gateway
+    #  context: ./spring-petclinic-api-gateway
       dockerfile: Dockerfile
     container_name: api-gateway
     deploy:

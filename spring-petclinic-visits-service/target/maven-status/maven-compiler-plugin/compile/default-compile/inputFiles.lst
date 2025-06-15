@@ -1,0 +1,5 @@
+/home/louis/projetpetclinicdockercompose/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java
+/home/louis/projetpetclinicdockercompose/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java
+/home/louis/projetpetclinicdockercompose/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java
+/home/louis/projetpetclinicdockercompose/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java
+/home/louis/projetpetclinicdockercompose/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java
