@@ -19,7 +19,7 @@
         <spring-cloud.version>2022.0.2</spring-cloud.version>
         <chaos-monkey-spring-boot.version>2.3.10</chaos-monkey-spring-boot.version>
         <jolokia-core.version>1.7.1</jolokia-core.version>
-        <webjars-bootstrap.version>3.3.7-1</webjars-bootstrap.version>
+        <webjars-bootstrap.version>5.0.0</webjars-bootstrap.version>
         <webjars-jquery.version>3.6.0</webjars-jquery.version>
         <webjars-angular.version>1.8.2</webjars-angular.version>
         <webjars-angular-ui-router.version>1.0.20</webjars-angular-ui-router.version>
